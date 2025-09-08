@@ -16,6 +16,7 @@ cases.
 
 ## Program
  DO WHLIE
+ ```
  def display():
     start = input("Enter a positive value for START: ")
     end = input("Enter a positive value for END: ")
@@ -35,9 +36,12 @@ cases.
         print("Enter a valid positive number.")
 
 display()
+```
 ## Output
 <img width="577" height="81" alt="image" src="https://github.com/user-attachments/assets/61291f20-1a5f-420b-837f-6de522596a1f" />
- WHILE DO
+
+ WHILE DO :
+ ```
  start = input("Enter a positive value for START: ") 
 end = input("Enter a positive value for END: ") 
 
@@ -50,10 +54,13 @@ if start.isnumeric() and end.isnumeric():
         start += 1
 else:
     print("Enter a valid positive number.")
-##OUTPUT
+```
+## output
 <img width="850" height="169" alt="image" src="https://github.com/user-attachments/assets/a34078bc-cce4-4a18-b6c5-f8ef1cbafa8c" />
 
+
  IF ELSE
+ ```
  def compare():
     a = input("Enter a value for A: ")
     b = input("Enter a value for B: ")
@@ -73,9 +80,13 @@ else:
         print("Enter a valid number.")
 
 compare()
-##OUTPUT
+```
+## output
 <img width="868" height="80" alt="image" src="https://github.com/user-attachments/assets/aa5dd9e1-0c3b-4f86-9487-20eeca237898" />
+
+
 SWITCH
+```
 def switch():
     switcher = {
         0: "even",
@@ -90,16 +101,22 @@ def switch():
         print("Enter a valid number.")
 
 switch()
-##OUTPUT
+```
+## output
 <img width="859" height="67" alt="image" src="https://github.com/user-attachments/assets/4b24f750-54ed-40e7-9662-2e90e73bc81d" />
-FOR 
+
+FOR : 
+```
 def iterate():
     string = input("Enter a string: ")  
     for i in string:
         print(ord(i), end=" ")
 
 iterate()
-##OUTPUT
+```
+
+## output
+
 <img width="864" height="62" alt="image" src="https://github.com/user-attachments/assets/ddca9b9c-07be-4166-865d-e9aa302be14a" />
 
 ## Result
